@@ -13,6 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "https://github.com/fevzibayrak/docker-instance/aws"
+    source = "fevzibayrak/docker-instance/aws"
     key_name = "clarusway"
 }
+```
